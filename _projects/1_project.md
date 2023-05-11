@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Marching Squares
+description: OpenGL implementation of marching squares algorithm for drawing contours
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: graphics
 ---
 
 Every project has a beautiful feature showcase page.

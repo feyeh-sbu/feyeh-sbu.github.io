@@ -4,7 +4,7 @@
     - name: Full Name
       value: Federick Yeh
     - name: Date of Birth
-      value: 3rd July 2002
+      value: 3 July 2002
     - name: Languages
       value: English ◎, Mandarin ○, Japanese △
 
@@ -15,82 +15,69 @@
       institution: Stony Brook University, New York, United States
       year: 2020 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - <span>GPA:</span> 3.9 / 4.0
+        - Presidential Scholarship
+        - Dean's List for 5 / 5 semesters
+
     - title: Regents Diploma with Honors, Advanced Designation, Mastery of Science, Mastery of Mathematics
       institution: The Bronx High School of Science, New York, United States
       year: 2016-2020
       description:
-        - Description 1
+        - <span>GPA:</span> 96 / 100
+        - Recognized for excellence in Multivariate Calculus, Modern Physics, and AP Computer Science A courses.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Software Engineer Intern
+      institution: PayPal, California, United States
+      year: 2023
       description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Media Systems Engineering Student Assistant
+      institution: Stony Brook University, New York, United States
+      year: 2022
+      description:
+        - Responsible for preventative maintenance of all 150+ classroom media systems on campus
+        - Assisted with the installation and configuration of 50 enw projectors and 9 new media stations
+        - Successfully troubleshooted various media systems, e.g. by rewiring audio cables and repairing computers
 
-- title: Open Source Projects
-  type: time_table
+    - title: Member of Soft Electronics Project
+      institution: Stony Brook University, New York, United States
+      year: 2021 - 2022
+      description:
+        - Worked with interdisciplinary team of 4 to design circuit for flexible pressure sensors for use in healthcare.
+        - Designed readout interface in Processing and implemented serial communication to and from Arduino.
+
+    - title: Undergraduate Teaching Assistant
+      institution: Stony Brook University, New York, United States
+      year: 2021 - 2022
+      description:
+        - Taught discrete mathematics and theory of computation in group (20+ students) and individual settings.
+        - Facilitated communication by actively responding to questions and creating announcements on Piazza.
+        - Designed rubrics for exam questions and provided constructive feedback with timely grading.
+
+    - title: Member of Beaver Works Summer Institute
+      institution: Massachusetts Institute of Technology, Massachusetts, United States
+      year: 2019
+      description:
+        - Developed and benchmarked Tetris-playing AIs trained via supervised and reinforcement learning
+        - Built an automatic differentiation library and trained RNNs and CNNs from scratch using NumPy
+
+- title: Skills
+  type: list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - <b>Languages</b><span>:</span> C++, Python, Java, JavaScript
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Computer Graphics
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - physical simulation
+        - rendering techniques
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Piano
+    - <b>Hobbies</b><span>:</span> piano, drawing
