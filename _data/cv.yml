@@ -6,13 +6,13 @@
     - name: Date of Birth
       value: 3 July 2002
     - name: Languages
-      value: English ◎, Mandarin ○, Japanese △
+      value: English 🌕 || Mandarin (國語) 🌔 || Japanese (日本語) 🌒
 
 - title: Education
   type: time_table
   contents:
     - title: BS in Computer Science, Applied Mathematics
-      institution: Stony Brook University, New York, United States
+      institution: Stony Brook University, New York
       year: 2020 - 2024
       description:
         - <span>GPA:</span> 3.9 / 4.0
@@ -20,7 +20,7 @@
         - Dean's List for 5 / 5 semesters
 
     - title: Regents Diploma with Honors, Advanced Designation, Mastery of Science, Mastery of Mathematics
-      institution: The Bronx High School of Science, New York, United States
+      institution: The Bronx High School of Science, New York
       year: 2016-2020
       description:
         - <span>GPA:</span> 96 / 100
@@ -30,12 +30,12 @@
   type: time_table
   contents:
     - title: Software Engineer Intern
-      institution: PayPal, California, United States
+      institution: PayPal, California
       year: 2023
       description:
 
     - title: Media Systems Engineering Student Assistant
-      institution: Stony Brook University, New York, United States
+      institution: Stony Brook University, New York
       year: 2022
       description:
         - Responsible for preventative maintenance of all 150+ classroom media systems on campus
@@ -43,14 +43,14 @@
         - Successfully troubleshooted various media systems, e.g. by rewiring audio cables and repairing computers
 
     - title: Member of Soft Electronics Project
-      institution: Stony Brook University, New York, United States
+      institution: Stony Brook University, New York
       year: 2021 - 2022
       description:
         - Worked with interdisciplinary team of 4 to design circuit for flexible pressure sensors for use in healthcare.
         - Designed readout interface in Processing and implemented serial communication to and from Arduino.
 
     - title: Undergraduate Teaching Assistant
-      institution: Stony Brook University, New York, United States
+      institution: Stony Brook University, New York
       year: 2021 - 2022
       description:
         - Taught discrete mathematics and theory of computation in group (20+ students) and individual settings.
@@ -58,7 +58,7 @@
         - Designed rubrics for exam questions and provided constructive feedback with timely grading.
 
     - title: Member of Beaver Works Summer Institute
-      institution: Massachusetts Institute of Technology, Massachusetts, United States
+      institution: Massachusetts Institute of Technology, Massachusetts
       year: 2019
       description:
         - Developed and benchmarked Tetris-playing AIs trained via supervised and reinforcement learning
@@ -78,6 +78,7 @@
         - rendering techniques
 
 - title: Other Interests
-  type: list
+  type: map
   contents:
-    - <b>Hobbies</b><span>:</span> piano, drawing
+    - name: Hobbies
+      value: Piano 🎹 || Rhythm Games 🎧 || Drawing 🎨 || Stationery 🖋️
